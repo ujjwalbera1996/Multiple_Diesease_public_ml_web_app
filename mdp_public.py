@@ -8,7 +8,7 @@ Created on Wed Aug 16 23:57:27 2023
 
 import pickle
 import streamlit as st
-from streamlit_option_menu import option_menu
+#from streamlit_option_menu import option_menu
 
 diabetes_model=pickle.load(open('diabetes_model.sav', 'rb'))
 heart_model=pickle.load(open('heart_model.sav', 'rb'))
@@ -16,14 +16,14 @@ parkinsons_model=pickle.load(open('parkinsons_model.sav', 'rb'))
 
 #sidebar for navigate
 
-with st.sidebar:
-    selected = option_menu('Ujjwal"s Multiple Disease Prediction System',
+#with st.sidebar:
+    #selected = option_menu('Ujjwal"s Multiple Disease Prediction System',
                           
-                          ['Diabetes Prediction',
-                           'Heart Disease Prediction',
-                           'Parkinsons Prediction'],
-                          icons=['activity','heart','person'],
-                          default_index=0)
+                          #['Diabetes Prediction',
+                           '#Heart Disease Prediction',
+                           '#Parkinsons Prediction'],
+                          #icons=['activity','heart','person'],
+                          #default_index=0)
     
 # Diabetes Prediction Page
 if (selected == 'Diabetes Prediction'):
