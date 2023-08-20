@@ -1,5 +1,5 @@
-numpy==1.21.6
-pickle5==0.0.12 
-streamlit==1.23.1
-sklearn==0.0.post7
-scikit-learn==1.0.2
+numpy 
+pickle5 
+streamlit 
+sklearn 
+scikit-learn
